@@ -53,6 +53,15 @@ bot.on('message', function (message) {
     "value": "`Pour faire une recherche google: r!google + recherche`"
       },
       {
+      {
+        "name": "say"
+        "value": "`Pour faire parler le bot`"
+      };
+   {
+   "name": "random"
+   "value": "`Nico Nico NIIII`"
+   },
+   {
   "name": "Serveur du bot !",
   "value": "https://discord.gg/y8Zqvj6"
 },
