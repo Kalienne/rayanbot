@@ -49,13 +49,13 @@ bot.on('message', function (message) {
 "value": "`( ͡° ͜ʖ ͡°)`"
   },
   {
-    "name": "google",
-    "value": "`Pour faire une recherche google: r!google + recherche`"
-      },
-      {
-        "name": "say"
-        "value": "`Pour faire parler le bot`"
-      };
+"name": "google",
+"value": "`Pour faire une recherche google: r!google + recherche`"
+  },
+  {
+"name": "say"
+"value": "`Pour faire parler le bot`"
+   };
    {
    "name": "random"
    "value": "`Nico Nico NIIII`"
