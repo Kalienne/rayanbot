@@ -14,7 +14,7 @@ module.exports = class Say extends Command {
 
 			message.delete()
 			var embed = new Discord.RichEmbed()
-			.setColor("#226666")
+			.setColor("0x0066FE")
 			.setDescription("**" + message.author.username + "**" + " a dit: " + " " + args.join(" "))
 			message.channel.send(embed)
 	}
