@@ -3,7 +3,7 @@ const bot = new Discord.Client()
 const Google = require('./commands/google')
 const Play = require('./commands/play')
 const Random = require('./commands/random')
-const Say = require('/commands/say')
+const say = require('/commands/say')
 
 bot.on('ready', function () {
   bot.user.setGame('tap r!help to help').catch(console.error)
@@ -88,7 +88,7 @@ bot.on('message', function (message) {
   Google.parse(message) ||
   Play.parse(message) ||
   Random.parse(message) ||
-  Say.parse(message)
+  say.parse(message)
 
 })
 
