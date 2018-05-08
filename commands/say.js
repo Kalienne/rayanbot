@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const Command = require('./command')
-const prefix = '!k'
+const prefix = 'r!'
 
 module.exports = class Say extends Command {
 
