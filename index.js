@@ -79,7 +79,8 @@ bot.on('message', function (message) {
   let commandUsed =
   Google.parse(message) ||
   Play.parse(message) ||
-  Random.parse(message)
+  Random.parse(message) ||
+  Say.parse(message)    
 
 })
 
