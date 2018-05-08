@@ -53,7 +53,6 @@ bot.on('message', function (message) {
     "value": "`Pour faire une recherche google: r!google + recherche`"
       },
       {
-      {
         "name": "say"
         "value": "`Pour faire parler le bot`"
       };
