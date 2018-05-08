@@ -3,7 +3,7 @@ const bot = new Discord.Client()
 const Google = require('./commands/google')
 const Play = require('./commands/play')
 const Random = require('./commands/random')
-const Say = require('.commands/say')
+const Say = require('./commands/say')
 
 
 bot.on('ready', function () {
