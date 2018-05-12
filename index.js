@@ -59,25 +59,25 @@ bot.on('message', function (message) {
 "value": "`( ͡° ͜ʖ ͡°)`"
   },
   {
-    "name": "google",
-    "value": "`Pour faire une recherche google: r!google + recherche`"
-      },
-      {
+  "name": "google",
+  "value": "`Pour faire une recherche google: r!google + recherche`"
+  },
+  {
   "name": "Serveur du bot !",
   "value": "https://discord.gg/y8Zqvj6"
-},
-{
-"name": "Serveur du créateur !",
-"value": "https://discord.gg/aTUUGUr"
-};
-   {
-   "name": "play",
-   "value": "permet de pourvoir lancer une musique a partir de l'url youtube !"
-   },
-   {
-   "name": "clear",
-   "value": "permet de supprimer autant de message qu'il est indiqué !"
-}
+  },
+  {
+  "name": "Serveur du créateur !",
+  "value": "https://discord.gg/aTUUGUr"
+  };
+  {
+  "name": "play",
+  "value": "permet de pourvoir lancer une musique a partir de l'url youtube !"
+  },
+  {
+  "name": "clear",
+  "value": "permet de supprimer autant de message qu'il est indiqué !"
+  }
  ]
 }
 message.channel.send({ embed })
