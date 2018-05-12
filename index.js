@@ -4,6 +4,7 @@ const Google = require('./commands/google')
 const Play = require('./commands/play')
 const Random = require('./commands/random')
 const Say = require('./commands/say')
+const clear = require('./commands/clear')
 
 
 bot.on('ready', function () {
@@ -69,6 +70,15 @@ bot.on('message', function (message) {
 "name": "Serveur du créateur !",
 "value": "https://discord.gg/aTUUGUr"
 }
+   {
+   "name": "play",
+   "value": "permet de pourvoir lancer une musique a partir de l'url youtube !"
+   },
+   {
+   "name": "clear",
+   "value": "permet de supprimer autant de message qu'il est indiqué !"
+   }
+   
  ]
 }
 message.channel.send({ embed })
@@ -89,7 +99,8 @@ bot.on('message', function (message) {
   Google.parse(message) ||
   Play.parse(message) ||
   Random.parse(message) ||
-  Say.parse(message)
+  Say.parse(message) ||
+  clear.parse(message)    
 
 })
 
