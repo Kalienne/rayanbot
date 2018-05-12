@@ -1,8 +1,8 @@
 const Discord = require('discord.js')
 const Command = require('./command')
-const prefix = '!k'
+const prefix = 'r!'
 
-module.exports = class Clear extends Command {
+module.exports = class clear extends Command {
 
 	static match(message) {
 		return message.content.startsWith(prefix + 'clear')
