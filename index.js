@@ -77,8 +77,7 @@ bot.on('message', function (message) {
    {
    "name": "clear",
    "value": "permet de supprimer autant de message qu'il est indiqué !"
-   }
-   }
+}
  ]
 }
 message.channel.send({ embed })
