@@ -1,10 +1,10 @@
 const Command = require('./command')
 
-module.exports = class Google extends Command {
+module.exports = class youtube extends Command {
 
   static match (message) {
-    console.log('checking google')
-    return message.content.startsWith('*google')
+    console.log('checking youtube')
+    return message.content.startsWith('r!youtube')
   }
 
 
@@ -12,7 +12,7 @@ module.exports = class Google extends Command {
     let args = message.content.split(' ')
     args.shift()
     message.delete()
-    message.reply('https://google.fr/#q=' + args.join('%20'))
+    message.reply('https://www.youtube.com/results?search_query=' + args.join('+'))
   }
 
 }
