@@ -43,6 +43,14 @@ bot.on('message', function (message) {
   "value": "``C'est pour voir toutes les commendes du bot !``"
   },
   {
+  "name": "play",
+  "value": "``C'est pour lancé des musique a partir de l'url youtube``"
+  },
+  { 
+  "name": "clear",
+  "value": "``C'est pour effacer autant de message que vous le désiré``"
+  },  
+   {
   "name": "say",
   "value": "``C'est pour faire parler le bot``"
   },
