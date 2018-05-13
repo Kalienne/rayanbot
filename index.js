@@ -1,10 +1,11 @@
-﻿const Discord = require('discord.js')
+const Discord = require('discord.js')
 const bot = new Discord.Client()
 const Google = require('./commands/google')
 const Play = require('./commands/play')
 const Random = require('./commands/random')
 const Say = require('./commands/say')
 const clear = require('./commands/clear')
+const youtube = require('./commands/youtube')
 
 
 bot.on('ready', function () {
@@ -70,6 +71,10 @@ bot.on('message', function (message) {
   "name": "google",
   "value": "`Pour faire une recherche google: r!google + recherche`"
   },
+   {
+  "name": "youtube",
+  "value": "Permet de recherche sur youtube !"
+  }
   {
   "name": "Serveur du bot !",
   "value": "https://discord.gg/y8Zqvj6"
@@ -99,7 +104,8 @@ bot.on('message', function (message) {
   Play.parse(message) ||
   Random.parse(message) ||
   Say.parse(message) ||
-  clear.parse(message)    
+  clear.parse(message) ||
+  youtube.parse(message)    
 
 })
 
