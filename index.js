@@ -72,10 +72,6 @@ bot.on('message', function (message) {
   "value": "`Pour faire une recherche google: r!google + recherche`"
   },
   {
-  "name": "youtube",
-  "value": "`Permet de recherche sur youtube !`"
-  };
-  {
   "name": "Serveur du bot !",
   "value": "https://discord.gg/y8Zqvj6"
   },
