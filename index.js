@@ -70,14 +70,6 @@ bot.on('message', function (message) {
   "name": "Serveur du créateur !",
   "value": "https://discord.gg/aTUUGUr"
   }
-  {
-  "name": "play",
-  "value": "permet de pourvoir lancer une musique a partir de l'url youtube !"
-  },
-  {
-  "name": "clear",
-  "value": "permet de supprimer autant de message qu'il est indiqué !"
-  }
  ]
 }
 message.channel.send({ embed })
