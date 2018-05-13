@@ -1,16 +1,18 @@
 const Command = require('./command')
 
-module.exports = class Youtube extends Command {
+module.exports = class Google extends Command {
 
   static match (message) {
-    console.log('checking youtube')
-    return message.content.startsWith('!kyt')
+    console.log('checking google')
+    return message.content.startsWith('*google')
   }
 
 
   static action (message) {
-    message.channel.send("Voici ma chaine youtube : https://www.youtube.com/channel/UCjukXGGsqIx9_EOaECjWZIQ?view_as=subscriber")
-
+    let args = message.content.split(' ')
+    args.shift()
+    message.delete()
+    message.reply('https://google.fr/#q=' + args.join('%20'))
   }
 
 }
