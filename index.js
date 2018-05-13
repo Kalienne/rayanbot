@@ -71,7 +71,7 @@ bot.on('message', function (message) {
   "name": "google",
   "value": "`Pour faire une recherche google: r!google + recherche`"
   },
-   {
+  {
   "name": "youtube",
   "value": "`Permet de recherche sur youtube !`"
   };
