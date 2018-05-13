@@ -44,6 +44,10 @@ bot.on('message', function (message) {
   "value": "``C'est pour voir toutes les commendes du bot !``"
   },
   {
+  "name": "youtube",
+  "value": "``C'est pour rechercher sur youtube !``"
+  },
+  {
   "name": "play",
   "value": "``C'est pour lancé des musique a partir de l'url youtube``"
   },
