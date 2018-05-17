@@ -7,7 +7,7 @@ var prefix = ("r!");
 var randnum = 0;
 
 bot.on('ready', () => {
-  bot.user.setPresence({ game: { name: 'Préfix = r! ', type: 0} });
+  bot.user.setPresence({ game: { name: 'Préfix : r! ', type: 0} });
   console.log("Bot ready !");
   music(bot)
 });
@@ -46,13 +46,13 @@ function random(min, max) {
 bot.on('message', function (message) {
   if (message.content === 'r!help') {
   const embed = {
-"title": "Aide des commandes:",
+"title": " ⛔ Maintenance ⛔ ",
 "description": "``Le préfixe du bot est r!``",
 "color": 0x0066FE,
 "fields": [
 {
  "name": "help",
- "value": "``Désolé , le bot est en maintenance , contacter Kalienne pour plus d'information !``"
+ "value": "``⛔ Désolé , le bot est en maintenance , contacter Kalienne pour plus d'information ! ⛔``"
 }
 ]
 }
