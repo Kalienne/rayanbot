@@ -51,56 +51,8 @@ bot.on('message', function (message) {
 "color": 0x0066FE,
 "fields": [
 {
- "name": "Invite",
- "value": "``C'est pour inviter le bot dans un autre serveur``"
-},
-{
- "name": "ping",
- "value": "``Il te répondra pong``"
-},
-{
-"name": "help",
-"value": "``C'est pour voir toutes les commendes du bot !``"
-},
-{
-"name": "youtube",
-"value": "``C'est pour rechercher sur youtube !``"
-},
-{
-"name": "play",
-"value": "``C'est pour lancé des musique a partir de l'url youtube``"
-},
-{ 
-"name": "clear",
-"value": "``C'est pour effacer autant de message que vous le désiré``"
-},  
- {
-"name": "say",
-"value": "``C'est pour faire parler le bot``"
-},
-{
-"name": "random",
-"value": "``Nico Nico NIIIII``"
-},
-{
-"name": "twitter",
-"value": "``Cette commande donne le twitter du créateur``"
-},
-{
-"name": "lenny",
-"value": "`( ͡° ͜ʖ ͡°)`"
-},
-{
-"name": "google",
-"value": "`Pour faire une recherche google: r!google + recherche`"
-},
-{
-"name": "Serveur du bot !",
-"value": "https://discord.gg/y8Zqvj6"
-},
-{
-"name": "Serveur du créateur !",
-"value": "https://discord.gg/aTUUGUr"
+ "name": "help",
+ "value": "``Désolé , le bot est en maintenance , contacter Kalienne pour plus d'information !``"
 }
 ]
 }
