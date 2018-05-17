@@ -21,7 +21,7 @@ bot.on('message', message => {
 
   }
 
-  if (message.content === "Coucou le bot"){
+  ife (message.content === "Coucou le bot"){
 
       if (randnum == 1){
          message.reply("coucou !");
