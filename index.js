@@ -113,7 +113,7 @@ bot.on('message', function (message) {
   if (message.content === 'r!lenny') {
     message.channel.send('( ͡° ͜ʖ ͡°)')
   }
-})
+}))
 
 
 bot.login(process.env.TOKEN)
