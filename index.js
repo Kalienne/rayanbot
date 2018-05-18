@@ -6,10 +6,12 @@ const Random = require('./commands/random')
 const Say = require('./commands/say')
 const clear = require('./commands/clear')
 const youtube = require('./commands/youtube')
+const music = require('discord.js-music-v11')
 
 
 bot.on('ready', function () {
   bot.user.setGame('tap r!help to help').catch(console.error)
+  music(bot)
 })
 
 bot.on('guildMemberAdd', function (member) {
